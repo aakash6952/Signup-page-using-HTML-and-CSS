@@ -7,11 +7,12 @@
     <title>Sign Up</title>
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <link href="./style.css" rel="Stylesheet">
+    
 </head>
 
 <body>
     <div class="container">
-        <div class="form">
+        <div class="form" onsubmit="getInfo()">
             <header class="signup-header">
                 <h1>Signup</h1>
                 <p>Hey Whatsapp !</p>
@@ -23,12 +24,12 @@
                         <input type="text" placeholder="John Doe" id="fullname" required>
                     </p>
                     <p>
-                        <label class="lastname">Last Name</label>
+                        <label class="email">Email</label>
                         <input type="email" placeholder="asdfk@mail.com" id="mail" required>
                     </p>
                     <p>
                         <label class="password">Password</label>
-                        <input type="password" placeholder="at least 8 character" id="password" required>
+                        <input type="password" placeholder="at least 8 character" id="Password" required>
                     </p>
                     <p>
 
@@ -41,12 +42,13 @@
                 </footer>
 
             </main>
-           
+
         </div>
         <div class="circle c1"></div>
         <div class="circle c2"></div>
 
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>

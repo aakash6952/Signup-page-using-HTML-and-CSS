@@ -7,6 +7,6 @@ const pasword = document.getElementById("Password").value;
 document.write("Yor filled the following details ! <br>")
 document.writeln("Your Name: "+ Full_name+"<br>");
 document.writeln("Your email: "+ email+"<br>");
-document.writeln("Your Name: "+ pasword+"<br>");
+document.writeln("Your Password: "+ pasword+"<br>");
 
 }
